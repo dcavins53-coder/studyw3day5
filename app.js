@@ -19,3 +19,7 @@ const doubledScores = scores.map(score => {
     return score * 2;
 });
 console.log("Doubled Scores:", doubledScores);
+
+const geminiAge = "peace"
+let div = document.getElementById("geminiAge")
+div.textContent = geminiAge
